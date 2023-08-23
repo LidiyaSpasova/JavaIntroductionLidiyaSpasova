@@ -4,7 +4,7 @@
 Изписва в конзолата подходящо съобщение за потребителя и хобито
 */
 
-package Homework;
+package Homeworks;
 
 import java.util.Scanner;
 
@@ -22,8 +22,6 @@ public class HomeworkFirst {
             String hobby = scanner.nextLine();
 
             System.out.println("Nice to meet you," + name + ". Your hobby is:" + hobby);
-
-
         }
     }
 

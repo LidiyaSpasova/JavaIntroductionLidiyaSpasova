@@ -72,18 +72,6 @@ public class HomeworkSecond {
     }
 
 
-        /*if (input == null || input.isEmpty()) {
-            return 0;
-        }
-
-        String [] words = input.split("\\s+");
-        return words.length;
-    }
-
-        Scanner scanner = new Scanner(System.in);
-
-        String firstString = scanner.nextLine();
-*/
 
     static void concatenateString() {
 

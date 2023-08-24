@@ -6,7 +6,7 @@ public class Test {
         Variables o1 = new Variables();
         Variables o2 = new Variables();
 
-        //instanve variables from the type (Class - in this Variables)
+        //instance variables from the type (Class - in this Variables)
         o1.age = 20;
         //o2.age = 17;
         o2.printAge();
@@ -15,8 +15,11 @@ public class Test {
         o2.printCanDrink();
 
         //accessing class variable/ static variable
-        Variables.staticString = "some \"random\" text";
+        //Variables.staticString = "some \"random\" text";
+
+        Variables.staticString = "some random text";
 
         System.out.println(Variables.staticString);
+        // System.out.println(Variables.staticString.charAt(5));
     }
 }

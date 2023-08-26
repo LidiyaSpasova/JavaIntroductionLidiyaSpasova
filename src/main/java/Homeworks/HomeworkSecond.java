@@ -73,7 +73,7 @@ public class HomeworkSecond {
         // totalWords = words.length;
         // System.out.println("\nTotal number of words = " + totalWords);
 
-        //System.out.println(Arrays.toString(something.split("x",2)));
+        System.out.println(Arrays.toString(something.split("x",2)));
     }
 
 

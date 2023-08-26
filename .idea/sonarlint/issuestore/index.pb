@@ -1,7 +1,23 @@
 
-Å
-Q.idea/sonarlint/securityhotspotstore/7/f/7fcba5cf57b12f2c6fad7d3846af495221458403,0\5\058fafa2abb25c2fca364e7dab91549e8c577874
-Å
-Q.idea/sonarlint/securityhotspotstore/2/1/21021f845b18fddf09cb3d723b15f3f3d3c12b78,0\f\0f23204c7b04143add846b0dd234c7334e53b492
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+W
+'src/main/java/demo/first/FirstDemo.java,7\f\7fcba5cf57b12f2c6fad7d3846af495221458403
+R
+"src/main/java/data/types/Test.java,0\8\0898420059313e2edbc98364c56aa41b171c4515
+W
+'src/main/java/data/types/Variables.java,6\7\67bd80d3c3ce031fdbe00110bfd044b9fda270e4
+Z
+*src/main/java/Homeworks/HomeworkFirst.java,2\1\21021f845b18fddf09cb3d723b15f3f3d3c12b78
+Å
+Q.idea/sonarlint/securityhotspotstore/0/5/058fafa2abb25c2fca364e7dab91549e8c577874,3\1\313d75c380db8b446e0b25e63b838f932a6dd4ce
+Å
+Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
+Å
+Q.idea/sonarlint/securityhotspotstore/0/f/0f23204c7b04143add846b0dd234c7334e53b492,1\e\1e4de1df04e44af81f2b3315dfc79981e1d5a886
+w
+G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
+w
+G.idea/sonarlint/issuestore/0/5/058fafa2abb25c2fca364e7dab91549e8c577874,1\f\1f8745285e8f914a59587f761b719d27a53dc7a3
+w
+G.idea/sonarlint/issuestore/0/f/0f23204c7b04143add846b0dd234c7334e53b492,c\3\c33d11fc11a7ee6fd613f7832ca6b2e5eb35de6c

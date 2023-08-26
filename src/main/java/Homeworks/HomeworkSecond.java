@@ -12,7 +12,6 @@
 package HomeworkSecond;
 
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeworkSecond {
@@ -63,14 +62,19 @@ public class HomeworkSecond {
 
         String something = scanner.nextLine();
 
-        int totalWords;
-        String words [] = something.split("");
-        totalWords = words.length;
-        System.out.println("\nTotal number of words = " + totalWords);
+        String words = something;
+        int countWords = something.split("\\s").length;
+        System.out.println(countWords);
 
-        System.out.println(Arrays.toString(something.split("x",2)));
+
+        // int totalWords;
+        // String words [] = something.split("");
+
+        // totalWords = words.length;
+        // System.out.println("\nTotal number of words = " + totalWords);
+
+        //System.out.println(Arrays.toString(something.split("x",2)));
     }
-
 
 
     static void concatenateString() {
@@ -86,6 +90,7 @@ public class HomeworkSecond {
         String secondString = scanner.nextLine();
 
         System.out.println(firstString.concat(secondString));
+
     }
 }
 

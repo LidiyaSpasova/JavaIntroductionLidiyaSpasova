@@ -6,6 +6,9 @@ public class Test {
         Variables o1 = new Variables();
         Variables o2 = new Variables();
 
+        //Todo check this
+        // o2 instanceof Object ? "yes" : "no;
+
         //instance variables from the type (Class - in this Variables)
         o1.age = 20;
         //o2.age = 17;

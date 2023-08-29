@@ -17,8 +17,21 @@ public class ArithmeticOperations {
         System.out.println((number != num2) && true); //true
         System.out.println((number != num2) && false); //false
         System.out.println((number != num2) || true); //true
-        System.out.println((number != num2) && false); //false
         System.out.println((number != num2) || false); //true
+        System.out.println((number != num2) || false); //false
+
+        int sum = number + num2;
+        sum +=8; //sum = sum + 8;
+
+        System.out.println(sum);
+
+        System.out.println((num2 > number ? "num2 is greater!" : "number is equal to or greater to num2"));
+
+        //System.out.println((num2 > number ? "num2 is greater" : "num2 is equal to or smaller to number");
+
+
+
+
 
 
 

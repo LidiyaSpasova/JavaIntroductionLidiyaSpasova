@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment=" new homework">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21021f845b18fddf09cb3d723b15f3f3d3c12b78" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fcba5cf57b12f2c6fad7d3846af495221458403" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7fcba5cf57b12f2c6fad7d3846af495221458403" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIntroductionLidiyaSpasova.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/HomeworkSecond/HomeworkSecond.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Homeworks/HomeworkFirst.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data/types/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data/types/Variables.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/first/FirstDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/1/21021f845b18fddf09cb3d723b15f3f3d3c12b78" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homeworks/HomeworkSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homeworks/HomeworkSecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/types/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/types/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/types/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/types/Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operators/ArithmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/types/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/types/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +51,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="FirstDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.first.FirstDemo" />
+  <component name="RunManager" selected="Application.ArithmeticOperations">
+    <configuration name="ArithmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operators.ArithmeticOperations" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.first.*" />
+          <option name="PATTERN" value="operators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArithmeticOperations" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HomeworkSecond" />
         <item itemvalue="Application.HomeworkFirst" />
         <item itemvalue="Application.Variables" />
-        <item itemvalue="Application.FirstDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693064462533</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=" new homework">
+      <option name="closed" value="true" />
+      <created>1693337162434</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693337162434</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

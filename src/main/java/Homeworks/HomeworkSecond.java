@@ -1,6 +1,6 @@
 /*
 Заместете даден под-string в даден string с друг текст:
-Пример: “My name is <myName>” – заместете Test с нещо, което чете от конзолата.
+Пример: “My name is <Test>” – заместете Test с нещо, което чете от конзолата.
 
 Сравнете 2 стринга дали са еднакви - подадени от конзолата и изпишете резултата в нея.
 
@@ -12,6 +12,7 @@
 package HomeworkSecond;
 
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeworkSecond {
@@ -63,7 +64,9 @@ public class HomeworkSecond {
         String something = scanner.nextLine();
 
         String words = something;
+
         int countWords = something.split("\\s").length;
+
         System.out.println(countWords);
 
 
@@ -73,7 +76,7 @@ public class HomeworkSecond {
         // totalWords = words.length;
         // System.out.println("\nTotal number of words = " + totalWords);
 
-        //System.out.println(Arrays.toString(something.split("x",2)));
+        System.out.println(Arrays.toString(something.split("x",2)));
     }
 
 

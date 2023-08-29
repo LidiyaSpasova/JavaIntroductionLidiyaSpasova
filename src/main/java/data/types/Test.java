@@ -21,5 +21,12 @@ public class Test {
 
         System.out.println(Variables.staticString);
         // System.out.println(Variables.staticString.charAt(5));
+
+        System.out.println(o1); //print reference to heap
+        System.out.println(o1.age); //print variable value
+        System.out.println(o1.name);
+
+        /*var myCalculation = calculateWeeklyBonus();type Inference variables that take value of a result, work after Java 10 */
+
     }
 }

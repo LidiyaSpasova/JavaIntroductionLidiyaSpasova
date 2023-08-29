@@ -6,6 +6,7 @@ public class Variables {
     //instance variables
 
     byte age;
+    String name;
 
     public static void main(String [] args) {
         //local variables

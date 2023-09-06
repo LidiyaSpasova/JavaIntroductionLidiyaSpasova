@@ -25,11 +25,11 @@ public class HomeworkSecond {
     }
 
     static void replacePartOfString() {
-        String firstString = "My name is Lidiya. I'm....";
+        String firstString = "My name is Lidiya.";
 
         System.out.println(firstString);
 
-        System.out.println("Please enter something");
+        System.out.println("Please enter your name");
 
         Scanner scanner = new Scanner(System.in);
 
@@ -52,12 +52,12 @@ public class HomeworkSecond {
 
         String secondString = scanner.nextLine();
 
-        System.out.println(firstString.equals(secondString));
+        System.out.println("\nIs this strings are equals:" + firstString.equals(secondString));
     }
 
     static void countWords() {
 
-        System.out.println("Please enter text");
+        System.out.println("Please enter sentences");
 
         Scanner scanner = new Scanner(System.in);
 
@@ -67,16 +67,10 @@ public class HomeworkSecond {
 
         int countWords = something.split("\\s").length;
 
-        System.out.println(countWords);
-
-
-        // int totalWords;
-        // String words [] = something.split("");
-
-        // totalWords = words.length;
-        // System.out.println("\nTotal number of words = " + totalWords);
+        System.out.println("\nTotal number of words = " + countWords);
 
         System.out.println(Arrays.toString(something.split("x",2)));
+
     }
 
 
@@ -92,7 +86,7 @@ public class HomeworkSecond {
 
         String secondString = scanner.nextLine();
 
-        System.out.println(firstString.concat(secondString));
+        System.out.println("\nThe strings are concatenate:" + firstString.concat(secondString));
 
     }
 }

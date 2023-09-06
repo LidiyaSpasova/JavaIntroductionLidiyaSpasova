@@ -6,8 +6,7 @@ public class Test {
         Variables o1 = new Variables();
         Variables o2 = new Variables();
 
-        //Todo check this
-        // o2 instanceof Object ? "yes" : "no;
+        System.out.println(o1 instanceof Object); //
 
         //instance variables from the type (Class - in this Variables)
         o1.age = 20;

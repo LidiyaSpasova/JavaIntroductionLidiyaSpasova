@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decision/DecisionMaking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_8_2023___22_26__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_8_2023_г__22_26_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="Arithmetic Operations">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homeworks/HomeworkSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homeworks/HomeworkSecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/types/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/types/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/types/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/types/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decision/DecisionMaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decision/DecisionMaking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeworkSecond/HomeworkSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeworkSecond/HomeworkSecond.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeworkSecond">
+  <component name="RunManager" selected="Application.DecisionMaking">
     <configuration name="ArithmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operators.ArithmeticOperations" />
       <module name="JavaIntroductionLidiyaSpasova" />
@@ -125,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeworkSecond" />
         <item itemvalue="Application.DecisionMaking" />
+        <item itemvalue="Application.HomeworkSecond" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArithmeticOperations" />
         <item itemvalue="Application.HomeworkFirst" />
@@ -310,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693855516364</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Arithmetic Operations">
+      <option name="closed" value="true" />
+      <created>1694031316920</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1694031316920</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

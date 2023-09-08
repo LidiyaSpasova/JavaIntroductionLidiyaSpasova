@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="Arithmetic Operations">
+    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="HomeworkThird">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fcba5cf57b12f2c6fad7d3846af495221458403" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7fcba5cf57b12f2c6fad7d3846af495221458403" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decision/DecisionMaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decision/DecisionMaking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HomeworkSecond/HomeworkSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeworkSecond/HomeworkSecond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homeworks/HomeworkThird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homeworks/HomeworkThird.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DecisionMaking">
+  <component name="RunManager" selected="Application.HomeworkThird">
     <configuration name="ArithmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operators.ArithmeticOperations" />
       <module name="JavaIntroductionLidiyaSpasova" />
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.HomeworkFirst" />
+    <configuration name="HomeworkSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkSecond.HomeworkSecond" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homeworks.*" />
+          <option name="PATTERN" value="HomeworkSecond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkSecond.HomeworkSecond" />
+    <configuration name="HomeworkThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.HomeworkThird" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkSecond.*" />
+          <option name="PATTERN" value="Homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DecisionMaking" />
+        <item itemvalue="Application.HomeworkThird" />
         <item itemvalue="Application.HomeworkSecond" />
+        <item itemvalue="Application.DecisionMaking" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArithmeticOperations" />
-        <item itemvalue="Application.HomeworkFirst" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +315,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694031316920</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Arithmetic Operations">
+      <option name="closed" value="true" />
+      <created>1694116492771</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694116492771</updated>
+    </task>
+    <task id="LOCAL-00024" summary="HomeworkThird">
+      <option name="closed" value="true" />
+      <created>1694123428299</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1694123428299</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,6 +361,7 @@
     <MESSAGE value="homework 2 new" />
     <MESSAGE value=" new homework" />
     <MESSAGE value="Arithmetic Operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arithmetic Operations" />
+    <MESSAGE value="HomeworkThird" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeworkThird" />
   </component>
 </project>

@@ -17,9 +17,9 @@ public class HomeworkThird {
 
     public static void main(String[] args) {
 
-        //TheBiggestNumberIs();
-        //PerimeterAreaRectangle();
-       // EvenNumberOrNot();
+        TheBiggestNumberIs();
+        PerimeterAreaRectangle();
+        EvenNumberOrNot();
         WeekDaysName();
 
     }

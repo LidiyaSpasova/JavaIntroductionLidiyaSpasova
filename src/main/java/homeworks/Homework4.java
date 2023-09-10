@@ -57,8 +57,7 @@ public class Homework4 {
         //int[] arrayNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int odd = 0;
         int even = 0;
-        int i;
-        for (i = 0; i < typeOfNumbers.length; i++) {
+        for (int i = 0; i < typeOfNumbers.length; i++) {
             if (typeOfNumbers[i] % 2 == 0) {
                 even += typeOfNumbers[i];
             } else {
@@ -119,7 +118,7 @@ public class Homework4 {
             num2 = sum;
 
         }
-        System.out.println(num2);
+        System.out.println("Fibonacci sum is:" +num2);
     }
 }
 

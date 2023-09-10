@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="HomeworkThird">
-      <change afterPath="$PROJECT_DIR$/src/main/java/loops/ForDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loops/WhileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21021f845b18fddf09cb3d723b15f3f3d3c12b78" beforeDir="false" />
+    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="Lecture 6.2 7.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arraydemo/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arraylist/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/StackDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/1/21021f845b18fddf09cb3d723b15f3f3d3c12b78" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -55,13 +56,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ForDemo">
-    <configuration name="DecisionMaking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decision.DecisionMaking" />
+  <component name="RunManager" selected="Application.QueueDemo">
+    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraydemo.ArrayDemo" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="decision.*" />
+          <option name="PATTERN" value="arraydemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loops.ForDemo" />
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListDemo" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loops.*" />
+          <option name="PATTERN" value="arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkSecond.HomeworkSecond" />
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListDemo" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkSecond.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.HomeworkThird" />
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueDemo" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homeworks.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loops.WhileDemo" />
+    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.StackDemo" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loops.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForDemo" />
-        <item itemvalue="Application.WhileDemo" />
-        <item itemvalue="Application.HomeworkThird" />
-        <item itemvalue="Application.HomeworkSecond" />
-        <item itemvalue="Application.DecisionMaking" />
+        <item itemvalue="Application.QueueDemo" />
+        <item itemvalue="Application.StackDemo" />
+        <item itemvalue="Application.LinkedListDemo" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.ArrayDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694206261084</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Lecture 6.2 7.1">
+      <option name="closed" value="true" />
+      <created>1694275825543</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1694275825543</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,6 +388,7 @@
     <MESSAGE value=" new homework" />
     <MESSAGE value="Arithmetic Operations" />
     <MESSAGE value="HomeworkThird" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeworkThird" />
+    <MESSAGE value="Lecture 6.2 7.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 6.2 7.1" />
   </component>
 </project>

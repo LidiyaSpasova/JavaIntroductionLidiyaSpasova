@@ -9,3 +9,15 @@ W
 'src/main/java/demo/first/FirstDemo.java,7\f\7fcba5cf57b12f2c6fad7d3846af495221458403
 a
 1src/main/java/operators/ArithmeticOperations.java,0\d\0d32091baa7c7bbb97e1dc9f5c0caee6dfb4d446
+Z
+*src/main/java/decision/DecisionMaking.java,f\2\f2cc6d0e9033b13004fbce0db666b944d816fe9b
+Z
+*src/main/java/Homeworks/HomeworkThird.java,e\2\e21c467265a97a4cb93d6afc54e4195ba125aab1
+Z
+*src/main/java/Homeworks/HomeworkFirst.java,2\1\21021f845b18fddf09cb3d723b15f3f3d3c12b78
+[
++src/main/java/Homeworks/HomeworkSecond.java,a\7\a7d43b9b9fd4f95c608a80a5d613e0e2adc1f8a2
+P
+ src/main/java/loops/ForDemo.java,d\4\d4f04074bf24781f31b12f6cd0568abb2b071754
+R
+"src/main/java/loops/WhileDemo.java,d\a\da465c73e4a0003fc0a186916b0f79ff7cae7f31

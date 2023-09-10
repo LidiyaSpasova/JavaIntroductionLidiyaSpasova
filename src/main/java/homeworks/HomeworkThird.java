@@ -9,7 +9,7 @@
       You have selected 1. Day of the week is Monday.
 */
 
-package Homeworks;
+package homeworks;
 
 import java.util.Scanner;
 
@@ -39,7 +39,7 @@ public class HomeworkThird {
 
 
         if (number1 == number2 && number1 == number3 && number2 == number3) {
-            System.out.println("THe numbers are equals");
+            System.out.println("The numbers are equals");
         } else if (number1 > number2 && number1 > number3) {
             System.out.println("Number1 is the biggest one.");
         } else if (number2 > number1 && number2 > number3) {

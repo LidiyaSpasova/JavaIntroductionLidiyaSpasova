@@ -4,7 +4,7 @@
 Изписва в конзолата подходящо съобщение за потребителя и хобито
 */
 
-package Homeworks;
+package homeworks;
 
 import java.util.Scanner;
 

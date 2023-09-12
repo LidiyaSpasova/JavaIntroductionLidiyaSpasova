@@ -1,4 +1,4 @@
-package oop;
+/*package oop;
 
 public class Dog {
     //states/ characteristics/ instance variable
@@ -22,9 +22,9 @@ public class Dog {
         this.breed = breed;
     }else {
             System.out.println("Error: Invali entry for breed!");
-        }
+        //}
 
-    public float getWeight() {
+    /*public float getWeight() {
         return weight;
     }
 
@@ -86,3 +86,4 @@ public class Dog {
         System.out.println(this.name + " is sleeping ........");
     }
 }
+*/

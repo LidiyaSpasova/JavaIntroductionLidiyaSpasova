@@ -21,8 +21,6 @@ R
 "src/main/java/loops/WhileDemo.java,d\a\da465c73e4a0003fc0a186916b0f79ff7cae7f31
 P
  src/main/java/loops/ForDemo.java,d\4\d4f04074bf24781f31b12f6cd0568abb2b071754
-V
-&src/main/java/arraydemo/ArrayDemo.java,0\f\0f67728dc23aef8f58f0a16b29ab294e8faa809a
 Z
 *src/main/java/arraylist/ArrayListDemo.java,0\1\01a290bd5f56e9231f547f36a99eceaa0c5bd39c
 \
@@ -35,5 +33,3 @@ Z
 *src/main/java/homeworks/HomeworkFirst.java,6\8\68834ccab6cfe2d14a6e6bc87239fbae43dd667f
 [
 +src/main/java/homeworks/HomeworkSecond.java,8\5\85807517ccf19a71f046da390e7e7365296a5ede
-V
-&src/main/java/homeworks/Homework4.java,a\b\abfa16ad806dcf22c0b624f43998287d6859b578

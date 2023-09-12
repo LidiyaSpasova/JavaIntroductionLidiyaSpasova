@@ -29,11 +29,7 @@ Z
 *src/main/java/arraylist/ArrayListDemo.java,0\1\01a290bd5f56e9231f547f36a99eceaa0c5bd39c
 R
 "src/main/java/stack/StackDemo.java,c\3\c3458dee58f93d6d857e7cbdb33b30f80abea5de
-V
-&src/main/java/arraydemo/ArrayDemo.java,0\f\0f67728dc23aef8f58f0a16b29ab294e8faa809a
 Z
 *src/main/java/homeworks/HomeworkFirst.java,6\8\68834ccab6cfe2d14a6e6bc87239fbae43dd667f
 [
 +src/main/java/homeworks/HomeworkSecond.java,8\5\85807517ccf19a71f046da390e7e7365296a5ede
-V
-&src/main/java/homeworks/Homework4.java,a\b\abfa16ad806dcf22c0b624f43998287d6859b578

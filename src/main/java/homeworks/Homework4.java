@@ -12,16 +12,13 @@
 6. Напишете програма, която отпечатва сумата на първите N члена от редицата на Фибоначи.
   Числата на Фибоначи започват от 0 и 1, като всяко следващо се получава като сума от предходните две.
 */
+
 package homeworks;
 
 import java.util.Scanner;
 
 public class Homework4 {
     public static void main(String[] args) {
-        int[] arrayNumbers = new int[20];
-
-        printValues(arrayNumbers);
-        System.out.println("_________________");
 
         int[] newValueArrayNumbers;
         newValueArrayNumbers = new int[20];
@@ -53,8 +50,6 @@ public class Homework4 {
     public static void SumOddOrEven(int[] array) {
 
         int[] typeOfNumbers = array;
-
-        //int[] arrayNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int odd = 0;
         int even = 0;
         for (int i = 0; i < typeOfNumbers.length; i++) {
@@ -95,13 +90,12 @@ public class Homework4 {
         int numberN = scanner.nextInt();
 
         for (int i = 1; i <= numberN; i++) {
-            if (((i % 3) == 0) == false) {
-                if (((i % 7) == 0) == false) {
+            if (i % 3 !=0 && i % 7 != 0) {
                     System.out.println("Numbers of i, that not divided to 3 and 7 are:" + i);
                 }
             }
         }
-    }
+
 
     public static void printFibonacci() {
         int num1 = 0;
@@ -121,7 +115,3 @@ public class Homework4 {
         System.out.println("Fibonacci sum is:" +num2);
     }
 }
-
-
-
-

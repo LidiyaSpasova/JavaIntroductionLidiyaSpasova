@@ -21,8 +21,6 @@ R
 "src/main/java/loops/WhileDemo.java,d\a\da465c73e4a0003fc0a186916b0f79ff7cae7f31
 P
  src/main/java/loops/ForDemo.java,d\4\d4f04074bf24781f31b12f6cd0568abb2b071754
-Z
-*src/main/java/arraylist/ArrayListDemo.java,0\1\01a290bd5f56e9231f547f36a99eceaa0c5bd39c
 \
 ,src/main/java/linkedlist/LinkedListDemo.java,a\2\a2d4028611372719215d57c7689b1926d4c8fb95
 R

@@ -17,38 +17,52 @@ package homeworks;
 
 import java.util.Scanner;
 
+
 public class Homework4 {
     public static void main(String[] args) {
 
         int[] newValueArrayNumbers = new int[20];
-        int sum = 0;
 
-        for (int i = 0; i < newValueArrayNumbers.length; i++) {
-            System.out.printf("At index: %d, is the value: %d\n", i, newValueArrayNumbers[i] = i * 5);//task 1
+        NewValueArray(newValueArrayNumbers); //task 1
 
-            sum += newValueArrayNumbers[i];
+        AverageArray(newValueArrayNumbers); //task 2
 
-        }
-        System.out.println("-----------------------");
-        System.out.println("Average of numbers in array is:" + sum / newValueArrayNumbers.length);// task 2
+        InputArray(); //task 3
 
-        System.out.println("-----------------------");
-        int[] typeOfNumbers = {2, 3, 4, 5, 6};//task 3
-        SumOddOrEven(typeOfNumbers);
-        System.out.println("-----------------------");
+        printNumbers(); //task 4
 
-        printNumbers();
-        System.out.println("-----------------------");//task 4
-
-        printDivisionNumbers();
-        System.out.println("-----------------------");//task 5
+        printDivisionNumbers();//task 5
 
         printFibonacci();//task 6
+
+
     }
 
-    public static void SumOddOrEven(int[] array) {
 
-        int[] typeOfNumbers = array;
+    public static void NewValueArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i * 5;
+            System.out.printf("At index: %d, is the value: %d\n", i, array[i]);//task 1
+        }
+        System.out.println("-----------------------");
+    }
+
+    public static void AverageArray(int[] array){
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        System.out.println("Average of numbers in array is:" + sum / array.length);
+        System.out.println("-----------------------");
+    }
+
+    public static void InputArray(){
+        int[] typeOfNumbers = new int[5];
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter array:");
+        for (int i = 0; i < typeOfNumbers.length; i++) {
+            typeOfNumbers[i] = scanner.nextInt();
+        }
         int odd = 0;
         int even = 0;
         for (int i = 0; i < typeOfNumbers.length; i++) {
@@ -61,30 +75,34 @@ public class Homework4 {
         }
         System.out.println(" Sum of odd numbers is:" + odd);
         System.out.println(" Sum of even numbers is:" + even);
+        System.out.println("-----------------------");
     }
 
+
     public static void printNumbers() {
-        System.out.println("Please enter parameter N:");
+        System.out.print("Please enter parameter N=");
         Scanner scanner = new Scanner(System.in);
         int parameterN = scanner.nextInt();
 
-        for (int i = 0; i <= parameterN; ++i) {
+        for (int i = 1; i <= parameterN; i++) {
             System.out.println(i);
 
         }
-
+        System.out.println("-----------------------");
     }
 
     public static void printDivisionNumbers() {
-        System.out.println("Please enter number N:");
+        System.out.print("Please enter number N=");
         Scanner scanner = new Scanner(System.in);
         int numberN = scanner.nextInt();
 
         for (int i = 1; i <= numberN; i++) {
-            if (i % 3 !=0 && i % 7 != 0) {
+            if (i % 3 != 0 && i % 7 != 0) {
                 System.out.println("Numbers of i, that not divided to 3 and 7 are:" + i);
             }
         }
+
+        System.out.println("-----------------------");
     }
 
 
@@ -103,6 +121,6 @@ public class Homework4 {
             num2 = sum;
 
         }
-        System.out.println("Fibonacci sum is:" +num2);
+        System.out.println("Fibonacci sum is:" + num2);
     }
 }

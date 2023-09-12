@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="Lecture 7.2">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homeworks/Homework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeworks/HomeworkSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworks/HomeworkSecond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks.ArrayHomework" />
+    <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.Homework4" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks.Homework4" />
+    <configuration name="HomeworkSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkSecond.HomeworkSecond" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworks.*" />
+          <option name="PATTERN" value="HomeworkSecond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,10 +122,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Homework4" />
+        <item itemvalue="Application.HomeworkSecond" />
         <item itemvalue="Application.HomeworkThird" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArrayDemo" />
-        <item itemvalue="Application.ArrayHomework" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694542832177</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Lecture 7.2">
+      <option name="closed" value="true" />
+      <created>1694543699380</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694543699380</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

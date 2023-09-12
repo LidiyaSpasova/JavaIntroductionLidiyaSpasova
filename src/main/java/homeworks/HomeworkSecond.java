@@ -24,7 +24,7 @@ public class HomeworkSecond {
         concatenateString();
     }
 
-    static void replacePartOfString() {
+    public static void replacePartOfString() {
         String firstString = "My name is Lidiya.";
 
         System.out.println(firstString);
@@ -40,7 +40,7 @@ public class HomeworkSecond {
         System.out.println(resultString);
     }
 
-    static void isTwoStringsAreEquals() {
+    public static void isTwoStringsAreEquals() {
 
         System.out.println("Please enter string #1");
 
@@ -55,7 +55,7 @@ public class HomeworkSecond {
         System.out.println("\nIs this strings are equals:" + firstString.equals(secondString));
     }
 
-    static void countWords() {
+    public static void countWords() {
 
         System.out.println("Please enter sentences");
 
@@ -74,7 +74,7 @@ public class HomeworkSecond {
     }
 
 
-    static void concatenateString() {
+    public static void concatenateString() {
 
         System.out.println("Please enter string #1");
 

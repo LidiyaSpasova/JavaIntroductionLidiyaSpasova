@@ -25,8 +25,6 @@ R
 "src/main/java/queue/QueueDemo.java,8\1\8131ac54493681ec442ab72befbcb01ed932b11a
 \
 ,src/main/java/linkedlist/LinkedListDemo.java,a\2\a2d4028611372719215d57c7689b1926d4c8fb95
-Z
-*src/main/java/arraylist/ArrayListDemo.java,0\1\01a290bd5f56e9231f547f36a99eceaa0c5bd39c
 R
 "src/main/java/stack/StackDemo.java,c\3\c3458dee58f93d6d857e7cbdb33b30f80abea5de
 Z

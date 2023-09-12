@@ -38,13 +38,14 @@ public class HomeworkThird {
         int number3 = scanner.nextInt();
 
 
-        if (number1 == number2 && number1 == number3 && number2 == number3) {
+        if (number1 == number2 && number1 == number3) {
             System.out.println("The numbers are equals");
         } else if (number1 > number2 && number1 > number3) {
             System.out.println("Number1 is the biggest one.");
         } else if (number2 > number1 && number2 > number3) {
             System.out.println("Number2 is the biggest one.");
-        } else if (number3 > number1 && number3 > number2) {
+        } else //if (number3 > number1 && number3 > number2)
+             {
             System.out.println("Number3 is the biggest one.");
         }
     }

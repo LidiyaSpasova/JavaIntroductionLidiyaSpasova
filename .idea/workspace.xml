@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="Lecture 7.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeworks/Homework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeworks/HomeworkThird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworks/HomeworkThird.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Homework4">
+  <component name="RunManager" selected="Application.HomeworkThird">
     <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraydemo.ArrayDemo" />
       <module name="JavaIntroductionLidiyaSpasova" />
@@ -90,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueDemo" />
+    <configuration name="HomeworkThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.HomeworkThird" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StackDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.Test" />
       <module name="JavaIntroductionLidiyaSpasova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeworkThird" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.ArrayHomework" />
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.StackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694371618808</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Lecture 7.2">
+      <option name="closed" value="true" />
+      <created>1694372100895</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694372100895</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

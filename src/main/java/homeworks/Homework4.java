@@ -63,14 +63,6 @@ public class Homework4 {
         System.out.println(" Sum of even numbers is:" + even);
     }
 
-
-    public static void printValues(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.printf("At index: %d, is the value: %d\n", i, array[i]);
-        }
-
-    }
-
     public static void printNumbers() {
         System.out.println("Please enter parameter N:");
         Scanner scanner = new Scanner(System.in);

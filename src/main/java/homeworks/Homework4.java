@@ -20,8 +20,7 @@ import java.util.Scanner;
 public class Homework4 {
     public static void main(String[] args) {
 
-        int[] newValueArrayNumbers;
-        newValueArrayNumbers = new int[20];
+        int[] newValueArrayNumbers = new int[20];
         int sum = 0;
 
         for (int i = 0; i < newValueArrayNumbers.length; i++) {
@@ -91,10 +90,10 @@ public class Homework4 {
 
         for (int i = 1; i <= numberN; i++) {
             if (i % 3 !=0 && i % 7 != 0) {
-                    System.out.println("Numbers of i, that not divided to 3 and 7 are:" + i);
-                }
+                System.out.println("Numbers of i, that not divided to 3 and 7 are:" + i);
             }
         }
+    }
 
 
     public static void printFibonacci() {

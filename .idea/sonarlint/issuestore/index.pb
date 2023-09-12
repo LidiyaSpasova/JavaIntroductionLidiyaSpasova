@@ -31,5 +31,3 @@ R
 "src/main/java/stack/StackDemo.java,c\3\c3458dee58f93d6d857e7cbdb33b30f80abea5de
 Z
 *src/main/java/homeworks/HomeworkFirst.java,6\8\68834ccab6cfe2d14a6e6bc87239fbae43dd667f
-[
-+src/main/java/homeworks/HomeworkSecond.java,8\5\85807517ccf19a71f046da390e7e7365296a5ede

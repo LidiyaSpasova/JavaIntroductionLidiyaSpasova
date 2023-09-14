@@ -3,7 +3,7 @@ package oop;
 public class Dog extends Pet {
 
     //constructor
-    public Dog(String breed){
+    public Dog(Breed breed){
         super (breed); //calling the constructor of the super/ parent class
     }
 

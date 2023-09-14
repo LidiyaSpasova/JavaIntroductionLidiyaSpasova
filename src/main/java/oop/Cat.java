@@ -2,7 +2,7 @@ package oop;
 
 public class Cat extends Pet {
 
-   public Cat(String breed){
+   public Cat(Breed breed){
        super(breed);
    }
    //actions/ methods

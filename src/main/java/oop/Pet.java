@@ -2,11 +2,12 @@ package oop;
 
 public class Pet implements PetActions {
     //states/ characteristics/ instance variable
-    private String breed;//composition
+    private Breed breed;//composition
     private float weight;
     private String sex;
     private byte age;
     private String name;
+    private Address address;//aggregation
 
 
     //Setters and Getters
@@ -66,20 +67,20 @@ public class Pet implements PetActions {
             this.name = name;
         }
     }
-    public String getBreed() {
+    public Breed getBreed() {
         return breed;
     }
     //gives us possibility to have data validation
 
-    private void setBreed(String breed) {
-        if (!breed.isEmpty()){
+    private void setBreed(Breed breed) {
+        if (!breed.equals(null)){
             this.breed = breed;
         }else {
             System.out.println("Error: Invalid entry for breed!");
         }
     }
 
-    public Pet(String breed){
+    public Pet(Breed breed){
         setBreed(breed);
     }
 

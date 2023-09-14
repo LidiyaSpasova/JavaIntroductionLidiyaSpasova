@@ -4,10 +4,14 @@ import java.util.concurrent.Callable;
 
 public class Test {
     public static void main(String[] args){
-        Dog frenchie = new Dog("French Bulldog");/*caling the constructor in order
+        Breed frenchBulldog = new Breed("French Bulldog",
+                "Medium size, playfull,12-20kg", "sick stomach");
+        Breed shepard = new Breed("Shepard", "34-50kg", ".....");
+        Breed persian = new Breed("Persian", "fur is long", "-");
+        Dog frenchie = new Dog(frenchBulldog);/*caling the constructor in order
         to create a new object from that type(Class)*/
-        Dog sharo = new Dog("Shepard");
-        Cat fur = new Cat("Persian");
+        Dog sharo = new Dog(shepard);
+        Cat fur = new Cat(persian);
 
         fur.setAge((byte) 5);
         fur.setName("Snowbowl");

@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="lecture 8.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/AbsractDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="1c12523f-c776-44c0-bfc3-f33cdc8723e7" name="Changes" comment="lecture 8.3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/TestPet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/types/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/types/Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/types/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/types/Variables.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraydemo.ArrayDemo" />
-      <module name="JavaIntroductionLidiyaSpasova" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraydemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestPet">
     <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeworks.Homework4" />
       <module name="JavaIntroductionLidiyaSpasova" />
@@ -123,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.TestPet" />
+      <module name="JavaIntroductionLidiyaSpasova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPet" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.HomeworkSecond" />
         <item itemvalue="Application.HomeworkThird" />
-        <item itemvalue="Application.ArrayDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694721555103</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="lecture 8.3">
+      <option name="closed" value="true" />
+      <created>1694805090116</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1694805090116</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,6 +479,7 @@
     <MESSAGE value="Homework4 new" />
     <MESSAGE value="lecture 8.1" />
     <MESSAGE value="lecture 8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lecture 8.2" />
+    <MESSAGE value="lecture 8.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 8.3" />
   </component>
 </project>

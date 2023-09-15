@@ -8,6 +8,15 @@ public class Variables {
     byte age;
     String name;
 
+    public Variables(String name){
+        //some logic here
+    }
+
+    public Variables(){
+        
+    }
+
+
     public static void main(String [] args) {
         //local variables
         //primitive data types

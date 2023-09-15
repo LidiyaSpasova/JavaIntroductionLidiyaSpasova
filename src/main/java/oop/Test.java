@@ -27,6 +27,7 @@ public class Test {
         frenchie.setWeight(15.0f);
 
         frenchie.bark();
+        frenchie.bark("Blah blah");
         frenchie.eat();
         frenchie.sleep();
 

@@ -61,4 +61,10 @@ public class Address {
         setPostalCode(postalCode);
         setAdditionalData(additionalData);
     }
+
+    //constructor overload
+
+    public Address(String country){
+        setCountry(country);
+    }
 }

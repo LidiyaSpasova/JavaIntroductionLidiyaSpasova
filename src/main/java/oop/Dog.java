@@ -12,6 +12,14 @@ public class Dog extends Pet {
     public void bark(){
         System.out.println(getName() + ": Bau bau");
     }
+    //method overload
+    public void bark(String noise){
+        System.out.println(getName() +": " + noise);
+    }
+    //method override - changing the implementation of the method
+    public void eat(){
+        System.out.println(getName() + "is eating fast!");
+    }
 
 
 }

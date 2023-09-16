@@ -12,8 +12,9 @@ public class HomeworkFirst {
 
         public static void main(String [] args){
 
-            System.out.println("Please enter your name:");
             Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Please enter your name:");
 
             String name = scanner.nextLine();
 

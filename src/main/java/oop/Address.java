@@ -67,4 +67,17 @@ public class Address {
     public Address(String country){
         setCountry(country);
     }
+
+    public Address(){
+        setCountry("Bulgaria");
+        setCity("Sofia");
+        setPostalCode(1000);
+        setAdditionalData("_");
+    }
+
+    //method override from the object class
+    public String toString(){
+        return String.format("Country is: %s, city is: %s, postal code is: %d, additional data: %s",
+                country, city, postalCode, additionalData);
+    }
 }

@@ -80,6 +80,18 @@ public class Pet implements PetActions {
         }
     }
 
+    public void setAddress(Address address) {
+        if (!address.equals(null)) {
+            this.address = address;
+        } else {
+            System.out.println("Error: Invalid entry for address");
+        }
+    }
+
+    public Address getAddress(){
+        return address;
+    }
+
     public Pet(Breed breed){
         setBreed(breed);
     }

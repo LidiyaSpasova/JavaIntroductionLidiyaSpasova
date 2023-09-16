@@ -31,11 +31,5 @@ L
 src/main/java/oop/Breed.java,9\8\987e29408cfe25457ae7400e854ae8f3b49325c1
 Q
 !src/main/java/oop/PetActions.java,3\9\3912cdfb92a704a8b704e254048c41106ac152ef
-W
-'src/main/java/data/types/Variables.java,6\7\67bd80d3c3ce031fdbe00110bfd044b9fda270e4
 R
 "src/main/java/oop/AbsractDemo.java,c\2\c28053847531657a9983ef95c4e30ad96082d390
-N
-src/main/java/oop/Address.java,c\0\c09a1710159df295fb34adcdaeba30c72d71cf55
-K
-src/main/java/oop/Test.java,4\d\4d81ae6753207a39d8c9b6230bd25647ba4d8d05

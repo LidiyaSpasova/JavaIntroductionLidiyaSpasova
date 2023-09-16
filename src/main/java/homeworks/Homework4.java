@@ -23,11 +23,11 @@ public class Homework4 {
 
         int[] newValueArrayNumbers = new int[20];
 
-        NewValueArray(newValueArrayNumbers); //task 1
+        newValueArray(newValueArrayNumbers); //task 1
 
-        AverageArray(newValueArrayNumbers); //task 2
+        averageArray(newValueArrayNumbers); //task 2
 
-        InputArray(); //task 3
+        inputArray(); //task 3
 
         printNumbers(); //task 4
 
@@ -39,7 +39,7 @@ public class Homework4 {
     }
 
 
-    public static void NewValueArray(int[] array) {
+    public static void newValueArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
             array[i] = i * 5;
             System.out.printf("At index: %d, is the value: %d\n", i, array[i]);//task 1
@@ -47,7 +47,7 @@ public class Homework4 {
         System.out.println("-----------------------");
     }
 
-    public static void AverageArray(int[] array){
+    public static void averageArray(int[] array){
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
@@ -56,7 +56,7 @@ public class Homework4 {
         System.out.println("-----------------------");
     }
 
-    public static void InputArray(){
+    public static void inputArray(){
         int[] typeOfNumbers = new int[5];
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter array:");

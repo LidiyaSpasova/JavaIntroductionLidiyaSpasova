@@ -17,14 +17,14 @@ public class HomeworkThird {
 
     public static void main(String[] args) {
 
-        TheBiggestNumberIs();
-        PerimeterAreaRectangle();
-        EvenNumberOrNot();
-        WeekDaysName();
+        theBiggestNumberIs();
+        perimeterAreaRectangle();
+        evenNumberOrNot();
+        weekDaysName();
 
     }
 
-    public static void TheBiggestNumberIs() {
+    public static void theBiggestNumberIs() {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -49,7 +49,7 @@ public class HomeworkThird {
         }
     }
 
-    public static void PerimeterAreaRectangle() {
+    public static void perimeterAreaRectangle() {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -68,7 +68,7 @@ public class HomeworkThird {
 
     }
 
-    public static void EvenNumberOrNot() {
+    public static void evenNumberOrNot() {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -83,7 +83,7 @@ public class HomeworkThird {
 
     }
 
-    public static void WeekDaysName() {
+    public static void weekDaysName() {
 
         Scanner scanner = new Scanner(System.in);
 

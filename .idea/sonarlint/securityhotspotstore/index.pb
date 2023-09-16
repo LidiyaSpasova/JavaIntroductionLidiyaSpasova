@@ -27,8 +27,6 @@ R
 "src/main/java/stack/StackDemo.java,c\3\c3458dee58f93d6d857e7cbdb33b30f80abea5de
 Z
 *src/main/java/arraylist/ArrayListDemo.java,0\1\01a290bd5f56e9231f547f36a99eceaa0c5bd39c
-V
-&src/main/java/homeworks/Homework4.java,a\b\abfa16ad806dcf22c0b624f43998287d6859b578
 W
 'src/main/java/data/types/Variables.java,6\7\67bd80d3c3ce031fdbe00110bfd044b9fda270e4
 R
@@ -39,17 +37,5 @@ L
 src/main/java/oop/Breed.java,9\8\987e29408cfe25457ae7400e854ae8f3b49325c1
 Q
 !src/main/java/oop/PetActions.java,3\9\3912cdfb92a704a8b704e254048c41106ac152ef
-J
-src/main/java/oop/Pet.java,5\8\5862def41c2e1e60f58b894fbf6035ee53619293
-J
-src/main/java/oop/Cat.java,c\4\c4f52b06b93124a24dbc748bf98a7c814c994713
-J
-src/main/java/oop/Dog.java,5\8\58c1beffb06e5806fb2da6525faef0121deeb882
 K
 src/main/java/oop/Test.java,4\d\4d81ae6753207a39d8c9b6230bd25647ba4d8d05
-T
-$src/main/java/homework5/TestPet.java,8\1\81575e2842158bbd95b4bd5a3dda2b70a5d39b5e
-S
-#src/main/java/homework5/Parrot.java,a\5\a5b08797b3a76f3657a427f07323fedf320713c3
-P
- src/main/java/homework5/Pet.java,d\3\d3f758fe4a33b603d1bff9f61b1cebde6f260fff

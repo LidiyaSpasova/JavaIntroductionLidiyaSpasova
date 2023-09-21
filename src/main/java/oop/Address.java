@@ -53,7 +53,7 @@ public class Address {
             System.out.println("Error: Invalid breed name!");
         }
     }
-    //constructor
+    //Type 2 constructor
 
     public Address(String country, String city, int postalCode, String additionalData){
         setCountry(country);
@@ -68,6 +68,8 @@ public class Address {
         setCountry(country);
     }
 
+    //type I constructor
+
     public Address(){
         setCountry("Bulgaria");
         setCity("Sofia");
@@ -75,7 +77,18 @@ public class Address {
         setAdditionalData("_");
     }
 
+    //copy constructor
+
+    public  Address(Address address){
+        //it is not mandatory to use the setters here because we have a valid object already
+        this.country = address.country;
+        this.city = address.city;
+        this.postalCode = address.postalCode;
+        this.additionalData = address.additionalData;
+    }
+
     //method override from the object class
+
     public String toString(){
         return String.format("Country is: %s, city is: %s, postal code is: %d, additional data: %s",
                 country, city, postalCode, additionalData);

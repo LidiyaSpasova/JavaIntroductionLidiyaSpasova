@@ -1,6 +1,8 @@
 package decision;
 
 
+import enumDemo.WeekDay;
+
 public class DecisionMaking {
 
     public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class DecisionMaking {
         System.out.println("-------------");
         printMonthOfTheYear(1);
         System.out.println("------------------");
+        printDayOfTheWeek(WeekDay.FRIDAY);
 
 
 
@@ -58,6 +61,13 @@ public class DecisionMaking {
                 break;
             default:
                 System.out.println("Error: Invalid entry.");
+        }
+    }
+
+    public static void printDayOfTheWeek(WeekDay day){
+        switch (day){
+            case FRIDAY -> System.out.println("Selected day is Friday.");
+            case MONDAY -> System.out.println("Selected day is Monday.");
         }
     }
 

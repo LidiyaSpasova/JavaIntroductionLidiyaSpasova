@@ -12,8 +12,4 @@ public void fly(){
 public void canSpeak(){
     System.out.println(getName() + " can speak");
     }
-
-public void canSpeak(String text){
-    System.out.println(getName() + " can not speak");
-}
 }

@@ -6,7 +6,7 @@ public class MethodsDemo {
     public static void main(String[] args) {
         int a =6;
         int b = 7;
-        //calling a static method directly without ban object
+        //calling a static method directly without an object
         System.out.println(add(5,6));
         System.out.println(add(add(a,b),b));
 

@@ -7,7 +7,7 @@ public class ArrayListDemo {
         ArrayList<String> cities = new ArrayList<>();
         cities.add("Sofia");
         cities.add(0,"Plovdiv");
-        cities.add("Burgas");
+        cities.add("Burgass");
 
         System.out.println(cities);
         cities.remove(0);

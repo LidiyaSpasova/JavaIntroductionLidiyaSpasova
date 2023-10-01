@@ -1,3 +1,38 @@
+/*              Homework - Football Team Management
+A football team has variable number of players, a name and a rating.
+A player has a name and stats which are the basis for his skill level. The stats a player has are endurance, sprint, dribble, passing and shooting. Each stat can be in the range [0..100]. The overall skill level of a player is calculated as the average of his stats. Only the name of a player and his stats should be visible to all of the outside world. Everything else should be hidden.
+A team should expose (term for giving an access where access would not otherwise be available) a name, a rating (calculated by the average skill level of all players in the team) and methods for adding and removing players.
+
+Model the team and the players following the proper principles of Encapsulation. Expose only the properties that needs to be visible and validate data appropriately.
+
+Data Validation
+
+1. A name cannot be null, empty or white space. If not, print "A name should not be empty. "
+2. Stats should be in the range 0..100. If not, print "[Stat name] should be between 0 and 100. "
+3. If you receive a command to remove a missing player, print "Player [Player name] is not in [Team name] team. "
+4. If you receive a command to add a player to a missing team, print "Team [team name] does not exist."
+5. If you receive a command to show stats for a missing team, print "Team [team name] does not exist."
+
+Method Calls Params                                     Expected Output
+Team;Barcelona                                          Barcelona – 81
+Add;Barcelona;Lionel_Messi;75;85;84;92;67
+Add;Barcelona;Gerard_Pique;95;82;82;89;68
+Remove;Barcelona;Gerard_Pique
+Rating;Barcelona
+END
+_________________________________________________________________________________
+Team;Barcelona                                              Endurance should be between 0 and 100.
+Add;Barcelona;Lionel_Messi;75;85;84;92;67
+Add;Barcelona;Gerard_Pique;195;82;82;89;68                  Player Gerard_Pique is not in Barcelona team.
+Remove;Barcelona;Gerard_Pique
+Rating;Barcelona                                            Barcelona - 81
+END
+___________________________________________________________________________________
+Team;Barcelona                                               Barcelona – 0
+Rating;Barcelona
+END
+ */
+
 package homework7;
 
 public class Player {

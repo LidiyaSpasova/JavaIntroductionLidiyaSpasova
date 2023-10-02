@@ -72,7 +72,7 @@ public class Person {
     //internal method
 
     private String trimProductsNames(String input){
-        input = input.trim(); //removes the spasce at the end
+        input = input.trim(); //removes the space at the end
         input = input.substring(0,input.length() - 1); //removes the last letter in the string
         return input;
     }

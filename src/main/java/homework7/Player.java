@@ -50,6 +50,7 @@ public class Player {
             setDribble(dribble);
             setPassing(passing);
             setShooting(shooting);
+
         }
 
         public String getName() {
@@ -66,7 +67,7 @@ public class Player {
 
         private void setEndurance(int endurance){
                 if (endurance < 0 || endurance > 100) {
-                    System.out.print("Endurance should be between 0 and 100.");
+                    System.out.print("Endurance should be between 0 and 100.\n");
                 } else {
                     this.endurance = endurance;
                 }

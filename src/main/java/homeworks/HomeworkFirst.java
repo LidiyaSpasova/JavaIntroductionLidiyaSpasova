@@ -23,6 +23,7 @@ public class HomeworkFirst {
             String hobby = scanner.nextLine();
 
             System.out.println("Nice to meet you," + name + ". Your hobby is:" + hobby);
+
         }
     }
 

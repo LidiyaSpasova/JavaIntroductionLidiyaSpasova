@@ -10,10 +10,10 @@ public class Product {
     //can be accessed from the package or from a subclass in different package
     protected int price;
 
-    //cab be accessed only from the current pasksge
+    //can be accessed only from the current package
     double weight;
 
-    //can be accessed from the curent class only
+    //can be accessed from the current class only
     private String recipe;
 
     //the same is for all the methods as well!!!

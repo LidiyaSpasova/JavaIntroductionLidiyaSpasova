@@ -85,7 +85,7 @@ public class homework6 {
         }
 
         if (haveNumber && haveLetter && haveSpecialSymbol) {
-            System.out.println("Super e");
+            System.out.println("Perfect");
         }
     }
 
@@ -113,7 +113,7 @@ public class homework6 {
             System.out.println("There is not positive number(s)");
         }
 
-        if (( number1 == number2 && number1 == number3 ) && ( number2 == number3 )) {
+        if ( number1 == number2 && number1 == number3 ) {
             System.out.println("Numbers are equal!");
         } else {
             System.out.println("Numbers are not equal!");

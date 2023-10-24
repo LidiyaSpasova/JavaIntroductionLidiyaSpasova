@@ -15,8 +15,8 @@ import java.util.Scanner;
 
 public class Homework8 {
     public static void main(String[] args) {
-        //theBiggestNumber();
-        //triangleArea();
+        theBiggestNumber();
+        triangleArea();
         randomArrayValue();
     }
 

@@ -10,12 +10,13 @@
 
 package homeworks;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Homework8 {
     public static void main(String[] args) {
         //theBiggestNumber();
-        triangleArea();
+        //triangleArea();
         randomArrayValue();
     }
 
@@ -63,5 +64,13 @@ public class Homework8 {
 
     public static void randomArrayValue(){
 
+            Random randomArray = new Random();
+            int[] randomArrayValue = new int [2];
+            Scanner scanner = new Scanner(System.in);
+
+            for (int i = 0; i < randomArrayValue.length; i++) {
+                randomArrayValue[i] = randomArray.nextInt();
+                System.out.println(randomArrayValue[i]);
+            }
     }
 }

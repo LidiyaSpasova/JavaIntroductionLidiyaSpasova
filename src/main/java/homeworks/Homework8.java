@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Homework8 {
     public static void main(String[] args) {
-        theBiggestNumber();
+        //theBiggestNumber();
         triangleArea();
         randomArrayValue();
     }
@@ -36,9 +36,30 @@ public class Homework8 {
 
     }
 
-    public static void triangleArea(){
+    public static void triangleArea() {
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter sideA:");
+        int sideA = scanner.nextInt();
+
+        System.out.println("Please enter angleA:");
+        double angleA = scanner.nextDouble();
+
+        System.out.println("Please enter angleB:");
+        double angleB = scanner.nextDouble();
+
+        System.out.println("Please enter angleY:");
+        double angleY = scanner.nextDouble();
+
+        if (angleY + angleB + angleA > 180) {
+            System.out.println("Error! Invalid triangle");
+
+        } else {
+            System.out.println((Math.round(( sideA * sideA ) * ( Math.sin(Math.toRadians(angleB) * ( Math.sin(Math.toRadians(angleY)
+                               /( 2 * ( Math.sin(Math.toRadians(angleA)) ) )) )) ))));
+        }
     }
+
 
     public static void randomArrayValue(){
 

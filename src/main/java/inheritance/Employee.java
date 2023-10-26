@@ -50,6 +50,11 @@ public class Employee {
         setStartDate(startDate);
         setSalary(salary);
     }
-
+    public void calculateBonus(boolean isTargetAchieved, double bonus){
+        if (isTargetAchieved){
+            //System.out.println(getSalary() + bonus);
+            setSalary(getSalary() + bonus);
+        }
+    }
 
 }

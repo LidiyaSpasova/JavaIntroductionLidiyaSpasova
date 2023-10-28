@@ -1,7 +1,5 @@
 package oop;
 
-import java.util.concurrent.Callable;
-
 public class Test {
     public static void main(String[] args){
         Breed frenchBulldog = new Breed("French Bulldog",
@@ -60,6 +58,8 @@ public class Test {
         System.out.println(fur.getAddress());
         System.out.println(frenchie.getAddress());
         System.out.println(sharo.getAddress());
+
+        //AbsractDemo abs = new AbsractDemo(); //we cannot create object/instance from an abstract class
 
     }
 

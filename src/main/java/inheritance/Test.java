@@ -13,5 +13,8 @@ public class Test {
 
         qa1.calculateBonus(true, 500);
         System.out.println(qa1.getSalary());
+
+        dev1.calculateAnnualBonus();
+        qa1.calculateAnnualBonus();
     }
 }

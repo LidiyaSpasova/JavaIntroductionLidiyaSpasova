@@ -21,5 +21,10 @@ public class Developer extends Employee {
         super(name, startDate, salary);//mandatory!!! caliing the constructor of the super class here
         setProgramingLanguage(programingLanguage);
     }
+
+    @Override
+    public void calculateAnnualBonus() {
+        System.out.println("You have a bonus: 1000");
+    }
 }
 

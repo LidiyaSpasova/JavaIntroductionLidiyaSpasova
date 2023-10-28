@@ -1,7 +1,7 @@
 package inheritance;
 
 //base class, parent class, super class
-public class Employee {
+public class Employee extends AnnualOperations{
     //fields
     private String name;
     private String startDate;
@@ -57,4 +57,8 @@ public class Employee {
         }
     }
 
+    @Override
+    public void calculateAnnualBonus() {
+        System.out.println("Not possible to calculate bonus!");
+    }
 }

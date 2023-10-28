@@ -23,4 +23,9 @@ public class QualityAssurance extends Employee{
             setSalary(getSalary() + bonus * 2);
         }
     }
+
+    @Override
+    public void calculateAnnualBonus() {
+        System.out.println("You have bonus: 1500");
+    }
 }

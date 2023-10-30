@@ -1,7 +1,10 @@
 package inheritance;
 
+import inheritance.interfaces.JuniorActions;
+import inheritance.interfaces.SeniorActions;
+
 //base class, parent class, super class
-public class Employee extends AnnualOperations{
+public class Employee extends AnnualOperations implements JuniorActions, SeniorActions {
     //fields
     private String name;
     private String startDate;
@@ -60,5 +63,25 @@ public class Employee extends AnnualOperations{
     @Override
     public void calculateAnnualBonus() {
         System.out.println("Not possible to calculate bonus!");
+    }
+
+    @Override
+    public void takeTraining() {
+        System.out.println("Watching videos");
+    }
+
+    @Override
+    public void askQuestions() {
+        System.out.println("I need help");
+    }
+
+    @Override
+    public void giveHelp() {
+        System.out.println("You should try this.....");
+    }
+
+    @Override
+    public void planTraining() {
+        System.out.println("You should watch this.....");
     }
 }

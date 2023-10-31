@@ -28,4 +28,11 @@ public class QualityAssurance extends Employee{
     public void calculateAnnualBonus() {
         System.out.println("You have bonus: 1500");
     }
+    //method overload
+    public String calculateAnnualBonus(double bonus) {
+        return "You have bonus" + bonus;
+    }
+
+
+
 }

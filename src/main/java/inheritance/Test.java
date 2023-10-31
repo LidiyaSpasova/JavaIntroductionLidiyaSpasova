@@ -16,5 +16,6 @@ public class Test {
 
         dev1.calculateAnnualBonus();
         qa1.calculateAnnualBonus();
+        qa1.calculateAnnualBonus(1000);
     }
 }
